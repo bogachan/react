@@ -2,11 +2,11 @@ import React from "react";
 
 class NewsItem extends React.Component {
   render() {
-      
+      const { title,descreption} = this.props;
     return (
       <div>
-        <h2 className="title">{this.props.title}</h2>
-        <p>{this.props.descreption}</p>
+        <h2 className="title">{title}</h2>
+        <p>{descreption}</p>
       </div>
     );
   }

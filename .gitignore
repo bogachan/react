@@ -1,0 +1,26 @@
+# Created by https://www.gitignore.io/api/react
+# Edit at https://www.gitignore.io/?templates=react
+
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!*.[Cc]ache/
+
+# End of https://www.gitignore.io/api/react
