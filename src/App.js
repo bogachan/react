@@ -4,7 +4,7 @@ import NewsItem from './NewsItem';
 function App() {
   return (
     <div className="App">
-      <p>MERHABA AQ --- SEnin içinden geçip avradını sikicem ...</p>
+      <h1>Hello React</h1>
       <NewsItem></NewsItem>
       <NewsItem></NewsItem>
     </div>
